@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">loginpage</string>
+    <string name="Log_Text">LogIn your Account</string>
+    <string name="Home_Text">Go to Home Screen</string>
+    <string name="start">Open</string>
+    <string name="end">Close</string>
+    <string name="subheader">Subheader</string>
+    <string name="delete">Delete</string>
+    <string name="spam">Spam</string>
+</resources>

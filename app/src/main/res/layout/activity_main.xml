@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uisimple"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/show_View"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dot_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/show_View"
+        android:baselineAligned="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Text_Click"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:text="@string/Log_Text"
+        android:textColor="@color/Text_color"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

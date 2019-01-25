@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <group android:checkableBehavior="single">
+
+    <item android:id="@+id/profile_id"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+
+    <item android:id="@+id/rate_id"
+        android:title="Rate"
+        android:icon="@drawable/rate"/>
+
+    <item android:id="@+id/share_id"
+        android:title="Share"
+        android:icon="@drawable/share"/>
+
+    <item android:id="@+id/help_id"
+        android:title="Help"
+        android:icon="@drawable/help"/>
+
+    <item android:id="@+id/setting_id"
+        android:title="Settings"
+        android:icon="@drawable/automatic"/>
+
+    <item android:id="@+id/logout_id"
+        android:title="Log Out"
+        android:icon="@drawable/shutdown"/>
+
+     </group>
+
+    <item android:title="@string/subheader">
+            <menu>
+
+            <item android:id="@+id/delete_id"
+                android:title="@string/delete"
+                android:icon="@drawable/delete"/>
+
+            <item android:id="@+id/spam_id"
+                  android:title="@string/spam"
+                  android:icon="@drawable/alert"/>
+
+            </menu>
+
+    </item>
+
+</menu>

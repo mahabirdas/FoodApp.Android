@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2962ff</color>
+    <color name="colorPrimaryDark">#0277bd</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ButtonBack">#fffde7</color>
+    <color name="Text_color">#64ffda</color>
+    <color name="Text_Home">#00796b</color>
+    <color name="List_Color">#000000</color>
+    <color name="Desc_Color">#1b5e20</color>
+    <color name="Home_Color">#ffff00</color>
+    <color name="user_color">#c8e6c9</color>
+    <color name="pass_color">#c5e1a5</color>
+    <color name="blue_one">#0288d1</color>
+    <color name="blue_two">#0288d1</color>
+    <color name="gray">#546e7a</color>
+    <color name="orenge">#ff6f00</color>
+    <color name="green_deep">#004d40</color>
+    <color name="tool_text">#ba5307</color>
+
+</resources>
